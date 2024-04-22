@@ -48,3 +48,5 @@ WebUI.verifyElementText(findTestObject('Object Repository/testGitRepository/h2_A
 
 WebUI.click(findTestObject('Object Repository/testGitRepository/a_Go to Homepage'))
 
+WebUI.closeBrowser()
+
