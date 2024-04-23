@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="tsGitCollection" time="18.515" tests="1" failures="0" errors="0">
+   <testsuite name="tsGitSuite" tests="1" failures="0" errors="0" time="14.042" skipped="0" timestamp="22-04-2024T23:04:17" hostname="berkan.bostanci - ISTTURNB151.vphq.veripark.com" id="Test Suites/tsGitSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\berkan.bostanci\\git\\testProjectGit4\\Reports\\20240422_230410\\tsGitSuite\\20240422_230411"/>
+         <property name="logFiles" value="C:\\Users\\berkan.bostanci\\git\\testProjectGit4\\Reports\\20240422_230410\\tsGitSuite\\20240422_230411\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="berkan.bostanci - ISTTURNB151.vphq.veripark.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.3.2.212"/>
+         <property name="browser" value="Chrome 122.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.111"/>
+         <property name="sessionId" value="6e151674d79a05d8612481ef8abd6c27"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/testGit" time="13.805" classname="Test Cases/testGit" status="PASSED">
+         <system-out><![CDATA[22-04-2024T23:04:17 - [TEST_CASE][PASSED] - Test Cases/testGit: Test Cases/testGit
+
+22-04-2024T23:04:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+22-04-2024T23:04:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+22-04-2024T23:04:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+22-04-2024T23:04:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+22-04-2024T23:04:20 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+22-04-2024T23:04:23 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+22-04-2024T23:04:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/testGitRepository/a_Make Appointment")): Object: 'Object Repository/testGitRepository/a_Make Appointment' is clicked on
+
+22-04-2024T23:04:23 - [MESSAGE][PASSED] - Object: 'Object Repository/testGitRepository/a_Make Appointment' is clicked on
+
+22-04-2024T23:04:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/testGitRepository/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/testGitRepository/input_Username_username'
+
+22-04-2024T23:04:24 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/testGitRepository/input_Username_username'
+
+22-04-2024T23:04:24 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/testGitRepository/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/testGitRepository/input_Password_password'
+
+22-04-2024T23:04:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/testGitRepository/input_Password_password'
+
+22-04-2024T23:04:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/testGitRepository/button_Login")): Object: 'Object Repository/testGitRepository/button_Login' is clicked on
+
+22-04-2024T23:04:26 - [MESSAGE][PASSED] - Object: 'Object Repository/testGitRepository/button_Login' is clicked on
+
+22-04-2024T23:04:26 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/testGitRepository/select_Tokyo CURA Healthcare Center        _5b4107"), "Hongkong CURA Healthcare Center", true): All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/testGitRepository/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+22-04-2024T23:04:27 - [MESSAGE][PASSED] - All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/testGitRepository/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+22-04-2024T23:04:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/testGitRepository/label_Apply for hospital readmission")): Object: 'Object Repository/testGitRepository/label_Apply for hospital readmission' is clicked on
+
+22-04-2024T23:04:27 - [MESSAGE][PASSED] - Object: 'Object Repository/testGitRepository/label_Apply for hospital readmission' is clicked on
+
+22-04-2024T23:04:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/testGitRepository/label_Medicaid")): Object: 'Object Repository/testGitRepository/label_Medicaid' is clicked on
+
+22-04-2024T23:04:27 - [MESSAGE][PASSED] - Object: 'Object Repository/testGitRepository/label_Medicaid' is clicked on
+
+22-04-2024T23:04:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/testGitRepository/span_Visit Date (Required)_glyphicon glyphi_cada34")): Object: 'Object Repository/testGitRepository/span_Visit Date (Required)_glyphicon glyphi_cada34' is clicked on
+
+22-04-2024T23:04:28 - [MESSAGE][PASSED] - Object: 'Object Repository/testGitRepository/span_Visit Date (Required)_glyphicon glyphi_cada34' is clicked on
+
+22-04-2024T23:04:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/testGitRepository/td_16")): Object: 'Object Repository/testGitRepository/td_16' is clicked on
+
+22-04-2024T23:04:28 - [MESSAGE][PASSED] - Object: 'Object Repository/testGitRepository/td_16' is clicked on
+
+22-04-2024T23:04:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/testGitRepository/textarea_Comment_comment"), "test"): Text 'test' is set on object 'Object Repository/testGitRepository/textarea_Comment_comment'
+
+22-04-2024T23:04:29 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/testGitRepository/textarea_Comment_comment'
+
+22-04-2024T23:04:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/testGitRepository/button_Book Appointment")): Object: 'Object Repository/testGitRepository/button_Book Appointment' is clicked on
+
+22-04-2024T23:04:30 - [MESSAGE][PASSED] - Object: 'Object Repository/testGitRepository/button_Book Appointment' is clicked on
+
+22-04-2024T23:04:30 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/testGitRepository/h2_Appointment Confirmation"), "Appointment Confirmation"): Actual text and expected text of test object 'Object Repository/testGitRepository/h2_Appointment Confirmation' are matched.
+
+22-04-2024T23:04:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/testGitRepository/h2_Appointment Confirmation' are matched.
+
+22-04-2024T23:04:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/testGitRepository/a_Go to Homepage")): Object: 'Object Repository/testGitRepository/a_Go to Homepage' is clicked on
+
+22-04-2024T23:04:31 - [MESSAGE][PASSED] - Object: 'Object Repository/testGitRepository/a_Go to Homepage' is clicked on
+
+22-04-2024T23:04:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+22-04-2024T23:04:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[22-04-2024T23:04:17 - [TEST_SUITE][PASSED] - tsGitSuite: Test Cases/testGit]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

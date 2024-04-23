@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+tsGitSuite,Chrome 122.0.0.0,,,22-04-2024 23:04:17,22-04-2024 23:04:31,14.042s,PASSED
+,,,,,,,
+Test Cases/testGit,Chrome 122.0.0.0,,,22-04-2024 23:04:17,22-04-2024 23:04:31,13.805s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,22-04-2024 23:04:18,22-04-2024 23:04:20,2.661s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 122.0.0.0,,,22-04-2024 23:04:20,22-04-2024 23:04:23,2.128s,PASSED
+"click(findTestObject(""Object Repository/testGitRepository/a_Make Appointment""))",Chrome 122.0.0.0,,,22-04-2024 23:04:23,22-04-2024 23:04:23,0.872s,PASSED
+"setText(findTestObject(""Object Repository/testGitRepository/input_Username_username""), ""John Doe"")",Chrome 122.0.0.0,,,22-04-2024 23:04:23,22-04-2024 23:04:24,0.786s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/testGitRepository/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 122.0.0.0,,,22-04-2024 23:04:24,22-04-2024 23:04:25,0.591s,PASSED
+"click(findTestObject(""Object Repository/testGitRepository/button_Login""))",Chrome 122.0.0.0,,,22-04-2024 23:04:25,22-04-2024 23:04:26,0.861s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/testGitRepository/select_Tokyo CURA Healthcare Center        _5b4107""), ""Hongkong CURA Healthcare Center"", true)",Chrome 122.0.0.0,,,22-04-2024 23:04:26,22-04-2024 23:04:27,1.089s,PASSED
+"click(findTestObject(""Object Repository/testGitRepository/label_Apply for hospital readmission""))",Chrome 122.0.0.0,,,22-04-2024 23:04:27,22-04-2024 23:04:27,0.383s,PASSED
+"click(findTestObject(""Object Repository/testGitRepository/label_Medicaid""))",Chrome 122.0.0.0,,,22-04-2024 23:04:27,22-04-2024 23:04:27,0.372s,PASSED
+"click(findTestObject(""Object Repository/testGitRepository/span_Visit Date (Required)_glyphicon glyphi_cada34""))",Chrome 122.0.0.0,,,22-04-2024 23:04:27,22-04-2024 23:04:28,0.362s,PASSED
+"click(findTestObject(""Object Repository/testGitRepository/td_16""))",Chrome 122.0.0.0,,,22-04-2024 23:04:28,22-04-2024 23:04:28,0.467s,PASSED
+"setText(findTestObject(""Object Repository/testGitRepository/textarea_Comment_comment""), ""test"")",Chrome 122.0.0.0,,,22-04-2024 23:04:28,22-04-2024 23:04:29,0.741s,PASSED
+"click(findTestObject(""Object Repository/testGitRepository/button_Book Appointment""))",Chrome 122.0.0.0,,,22-04-2024 23:04:29,22-04-2024 23:04:30,0.622s,PASSED
+"verifyElementText(findTestObject(""Object Repository/testGitRepository/h2_Appointment Confirmation""), ""Appointment Confirmation"")",Chrome 122.0.0.0,,,22-04-2024 23:04:30,22-04-2024 23:04:30,0.460s,PASSED
+"click(findTestObject(""Object Repository/testGitRepository/a_Go to Homepage""))",Chrome 122.0.0.0,,,22-04-2024 23:04:30,22-04-2024 23:04:31,0.643s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,22-04-2024 23:04:31,22-04-2024 23:04:31,0.430s,PASSED
